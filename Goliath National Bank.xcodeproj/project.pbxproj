@@ -3,27 +3,70 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 53;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0D2CA508258673AD00F0E7A2 /* RequestTypeENUM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D2CA507258673AD00F0E7A2 /* RequestTypeENUM.swift */; };
+		0D2CA50B258673F500F0E7A2 /* CurrencyENUM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D2CA50A258673F500F0E7A2 /* CurrencyENUM.swift */; };
+		0D2CA50F2586838B00F0E7A2 /* NetworkMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D2CA50E2586838B00F0E7A2 /* NetworkMonitor.swift */; };
+		0D2CA51525869BD400F0E7A2 /* AlertTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D2CA51425869BD400F0E7A2 /* AlertTools.swift */; };
+		0D2CA51925869F4000F0E7A2 /* SourceTypeENUM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D2CA51825869F4000F0E7A2 /* SourceTypeENUM.swift */; };
+		0D2CA51D2586A3AD00F0E7A2 /* TransactionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D2CA51C2586A3AD00F0E7A2 /* TransactionTableViewCell.swift */; };
+		0D2CA5202586C3F500F0E7A2 /* CurrencyConversor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D2CA51F2586C3F500F0E7A2 /* CurrencyConversor.swift */; };
+		0D5F37F12583E4C200AC50C4 /* TransactionDetail.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D5F37F02583E4C200AC50C4 /* TransactionDetail.storyboard */; };
+		0D5F37F52583F1BA00AC50C4 /* IQKeyboardManagerSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 0D5F37F42583F1BA00AC50C4 /* IQKeyboardManagerSwift */; };
+		0D5F37FA25841E2900AC50C4 /* DataDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D5F37F925841E2900AC50C4 /* DataDecoder.swift */; };
+		0D8AD76E258667ED00AD44EF /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D8AD76D258667ED00AD44EF /* CoreDataStack.swift */; };
+		0D8AD7722586685200AD44EF /* TransactionsDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D8AD7712586685200AD44EF /* TransactionsDetailVC.swift */; };
+		0D95D77925856B8D0066A892 /* DataLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D95D77825856B8D0066A892 /* DataLoader.swift */; };
+		0D95D78225858E7D0066A892 /* SKUModel+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D95D77E25858E7D0066A892 /* SKUModel+CoreDataClass.swift */; };
+		0D95D78325858E7D0066A892 /* SKUModel+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D95D77F25858E7D0066A892 /* SKUModel+CoreDataProperties.swift */; };
+		0D95D78425858E7D0066A892 /* ConversionRateModel+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D95D78025858E7D0066A892 /* ConversionRateModel+CoreDataClass.swift */; };
+		0D95D78525858E7D0066A892 /* ConversionRateModel+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D95D78125858E7D0066A892 /* ConversionRateModel+CoreDataProperties.swift */; };
+		0D95D78D2585A3EF0066A892 /* SKUTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D95D78C2585A3EF0066A892 /* SKUTableViewCell.swift */; };
 		0DAB66E7257EE6ED00CFA95F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DAB66E6257EE6ED00CFA95F /* AppDelegate.swift */; };
 		0DAB66E9257EE6ED00CFA95F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DAB66E8257EE6ED00CFA95F /* SceneDelegate.swift */; };
-		0DAB66EB257EE6ED00CFA95F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DAB66EA257EE6ED00CFA95F /* ViewController.swift */; };
-		0DAB66EE257EE6ED00CFA95F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DAB66EC257EE6ED00CFA95F /* Main.storyboard */; };
+		0DAB66EB257EE6ED00CFA95F /* SKUListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DAB66EA257EE6ED00CFA95F /* SKUListVC.swift */; };
+		0DAB66EE257EE6ED00CFA95F /* SKUList.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DAB66EC257EE6ED00CFA95F /* SKUList.storyboard */; };
 		0DAB66F0257EE6EF00CFA95F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0DAB66EF257EE6EF00CFA95F /* Assets.xcassets */; };
 		0DAB66F3257EE6EF00CFA95F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DAB66F1257EE6EF00CFA95F /* LaunchScreen.storyboard */; };
+		0DAB6701257EF40300CFA95F /* DataRetriever.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DAB6700257EF40300CFA95F /* DataRetriever.swift */; };
+		0DC71E072586D27A00DBA615 /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DC71E062586D27A00DBA615 /* Transaction.swift */; };
+		0DC71E0B2586E47000DBA615 /* Readme.md in Resources */ = {isa = PBXBuildFile; fileRef = 0DC71E0A2586E47000DBA615 /* Readme.md */; };
+		0DDD8C6F25850A51009827EE /* DataPersistence.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0DDD8C6D25850A51009827EE /* DataPersistence.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0DAB66E3257EE6ED00CFA95F /* Goliath National Bank.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Goliath National Bank.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D2CA507258673AD00F0E7A2 /* RequestTypeENUM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestTypeENUM.swift; sourceTree = "<group>"; };
+		0D2CA50A258673F500F0E7A2 /* CurrencyENUM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyENUM.swift; sourceTree = "<group>"; };
+		0D2CA50E2586838B00F0E7A2 /* NetworkMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkMonitor.swift; sourceTree = "<group>"; };
+		0D2CA51425869BD400F0E7A2 /* AlertTools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertTools.swift; sourceTree = "<group>"; };
+		0D2CA51825869F4000F0E7A2 /* SourceTypeENUM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourceTypeENUM.swift; sourceTree = "<group>"; };
+		0D2CA51C2586A3AD00F0E7A2 /* TransactionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionTableViewCell.swift; sourceTree = "<group>"; };
+		0D2CA51F2586C3F500F0E7A2 /* CurrencyConversor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyConversor.swift; sourceTree = "<group>"; };
+		0D5F37F02583E4C200AC50C4 /* TransactionDetail.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TransactionDetail.storyboard; sourceTree = "<group>"; };
+		0D5F37F925841E2900AC50C4 /* DataDecoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataDecoder.swift; sourceTree = "<group>"; };
+		0D8AD76D258667ED00AD44EF /* CoreDataStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
+		0D8AD7712586685200AD44EF /* TransactionsDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionsDetailVC.swift; sourceTree = "<group>"; };
+		0D95D77825856B8D0066A892 /* DataLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataLoader.swift; sourceTree = "<group>"; };
+		0D95D77E25858E7D0066A892 /* SKUModel+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SKUModel+CoreDataClass.swift"; sourceTree = "<group>"; };
+		0D95D77F25858E7D0066A892 /* SKUModel+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SKUModel+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		0D95D78025858E7D0066A892 /* ConversionRateModel+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ConversionRateModel+CoreDataClass.swift"; sourceTree = "<group>"; };
+		0D95D78125858E7D0066A892 /* ConversionRateModel+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ConversionRateModel+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		0D95D78C2585A3EF0066A892 /* SKUTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SKUTableViewCell.swift; sourceTree = "<group>"; };
+		0DAB66E3257EE6ED00CFA95F /* GNB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GNB.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0DAB66E6257EE6ED00CFA95F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0DAB66E8257EE6ED00CFA95F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		0DAB66EA257EE6ED00CFA95F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		0DAB66ED257EE6ED00CFA95F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0DAB66EA257EE6ED00CFA95F /* SKUListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SKUListVC.swift; sourceTree = "<group>"; };
+		0DAB66ED257EE6ED00CFA95F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/SKUList.storyboard; sourceTree = "<group>"; };
 		0DAB66EF257EE6EF00CFA95F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0DAB66F2257EE6EF00CFA95F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0DAB66F4257EE6EF00CFA95F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0DAB6700257EF40300CFA95F /* DataRetriever.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataRetriever.swift; sourceTree = "<group>"; };
+		0DC71E062586D27A00DBA615 /* Transaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transaction.swift; sourceTree = "<group>"; };
+		0DC71E0A2586E47000DBA615 /* Readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Readme.md; sourceTree = "<group>"; };
+		0DDD8C6E25850A51009827EE /* DataPersistence.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DataPersistence.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,12 +74,79 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D5F37F52583F1BA00AC50C4 /* IQKeyboardManagerSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0D2CA5222586C65700F0E7A2 /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				0D2CA507258673AD00F0E7A2 /* RequestTypeENUM.swift */,
+				0D2CA50A258673F500F0E7A2 /* CurrencyENUM.swift */,
+				0D2CA51825869F4000F0E7A2 /* SourceTypeENUM.swift */,
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		0D8AD77D25866CCB00AD44EF /* SKU List Screen */ = {
+			isa = PBXGroup;
+			children = (
+				0DAB66EA257EE6ED00CFA95F /* SKUListVC.swift */,
+				0D95D78C2585A3EF0066A892 /* SKUTableViewCell.swift */,
+			);
+			path = "SKU List Screen";
+			sourceTree = "<group>";
+		};
+		0D8AD77E25866CE300AD44EF /* Transaction List Screen */ = {
+			isa = PBXGroup;
+			children = (
+				0D8AD7712586685200AD44EF /* TransactionsDetailVC.swift */,
+				0D2CA51C2586A3AD00F0E7A2 /* TransactionTableViewCell.swift */,
+			);
+			path = "Transaction List Screen";
+			sourceTree = "<group>";
+		};
+		0D8AD78225866D5400AD44EF /* Application Life Cycle */ = {
+			isa = PBXGroup;
+			children = (
+				0DAB66E6257EE6ED00CFA95F /* AppDelegate.swift */,
+				0DAB66E8257EE6ED00CFA95F /* SceneDelegate.swift */,
+			);
+			path = "Application Life Cycle";
+			sourceTree = "<group>";
+		};
+		0D95D79A258667570066A892 /* SKUModel */ = {
+			isa = PBXGroup;
+			children = (
+				0D95D77E25858E7D0066A892 /* SKUModel+CoreDataClass.swift */,
+				0D95D77F25858E7D0066A892 /* SKUModel+CoreDataProperties.swift */,
+			);
+			path = SKUModel;
+			sourceTree = "<group>";
+		};
+		0D95D79C258667670066A892 /* ConversionRateModel */ = {
+			isa = PBXGroup;
+			children = (
+				0D95D78025858E7D0066A892 /* ConversionRateModel+CoreDataClass.swift */,
+				0D95D78125858E7D0066A892 /* ConversionRateModel+CoreDataProperties.swift */,
+			);
+			path = ConversionRateModel;
+			sourceTree = "<group>";
+		};
+		0D95D79E258667820066A892 /* Data Persistence */ = {
+			isa = PBXGroup;
+			children = (
+				0D8AD76D258667ED00AD44EF /* CoreDataStack.swift */,
+				0D95D79A258667570066A892 /* SKUModel */,
+				0D95D79C258667670066A892 /* ConversionRateModel */,
+				0DDD8C6D25850A51009827EE /* DataPersistence.xcdatamodeld */,
+			);
+			path = "Data Persistence";
+			sourceTree = "<group>";
+		};
 		0DAB66DA257EE6ED00CFA95F = {
 			isa = PBXGroup;
 			children = (
@@ -48,7 +158,7 @@
 		0DAB66E4257EE6ED00CFA95F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0DAB66E3257EE6ED00CFA95F /* Goliath National Bank.app */,
+				0DAB66E3257EE6ED00CFA95F /* GNB.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -56,15 +166,66 @@
 		0DAB66E5257EE6ED00CFA95F /* Goliath National Bank */ = {
 			isa = PBXGroup;
 			children = (
-				0DAB66E6257EE6ED00CFA95F /* AppDelegate.swift */,
-				0DAB66E8257EE6ED00CFA95F /* SceneDelegate.swift */,
-				0DAB66EA257EE6ED00CFA95F /* ViewController.swift */,
-				0DAB66EC257EE6ED00CFA95F /* Main.storyboard */,
-				0DAB66EF257EE6EF00CFA95F /* Assets.xcassets */,
-				0DAB66F1257EE6EF00CFA95F /* LaunchScreen.storyboard */,
+				0DC71E0A2586E47000DBA615 /* Readme.md */,
+				0D8AD78225866D5400AD44EF /* Application Life Cycle */,
+				0DAB66FE257EF3D400CFA95F /* Model */,
+				0DAB66FC257EF3C600CFA95F /* Controller */,
+				0DAB66FB257EF3B800CFA95F /* View */,
 				0DAB66F4257EE6EF00CFA95F /* Info.plist */,
 			);
 			path = "Goliath National Bank";
+			sourceTree = "<group>";
+		};
+		0DAB66FB257EF3B800CFA95F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0DAB66EC257EE6ED00CFA95F /* SKUList.storyboard */,
+				0D5F37F02583E4C200AC50C4 /* TransactionDetail.storyboard */,
+				0DAB66F1257EE6EF00CFA95F /* LaunchScreen.storyboard */,
+				0D2CA51425869BD400F0E7A2 /* AlertTools.swift */,
+				0DAB66EF257EE6EF00CFA95F /* Assets.xcassets */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0DAB66FC257EF3C600CFA95F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0D8AD77D25866CCB00AD44EF /* SKU List Screen */,
+				0D8AD77E25866CE300AD44EF /* Transaction List Screen */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0DAB66FE257EF3D400CFA95F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0D2CA50E2586838B00F0E7A2 /* NetworkMonitor.swift */,
+				0D2CA51F2586C3F500F0E7A2 /* CurrencyConversor.swift */,
+				0DC71E062586D27A00DBA615 /* Transaction.swift */,
+				0D2CA5222586C65700F0E7A2 /* Enums */,
+				0DAB66FF257EF3EA00CFA95F /* API */,
+				0D95D79E258667820066A892 /* Data Persistence */,
+				0DDD8C7125850A5A009827EE /* DataFlow */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0DAB66FF257EF3EA00CFA95F /* API */ = {
+			isa = PBXGroup;
+			children = (
+				0DAB6700257EF40300CFA95F /* DataRetriever.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		0DDD8C7125850A5A009827EE /* DataFlow */ = {
+			isa = PBXGroup;
+			children = (
+				0D5F37F925841E2900AC50C4 /* DataDecoder.swift */,
+				0D95D77825856B8D0066A892 /* DataLoader.swift */,
+			);
+			path = DataFlow;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,8 +244,11 @@
 			dependencies = (
 			);
 			name = "Goliath National Bank";
+			packageProductDependencies = (
+				0D5F37F42583F1BA00AC50C4 /* IQKeyboardManagerSwift */,
+			);
 			productName = "Goliath National Bank";
-			productReference = 0DAB66E3257EE6ED00CFA95F /* Goliath National Bank.app */;
+			productReference = 0DAB66E3257EE6ED00CFA95F /* GNB.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -93,6 +257,7 @@
 		0DAB66DB257EE6ED00CFA95F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				BuildIndependentTargetsInParallel = YES;
 				LastSwiftUpdateCheck = 1220;
 				LastUpgradeCheck = 1220;
 				TargetAttributes = {
@@ -110,6 +275,9 @@
 				Base,
 			);
 			mainGroup = 0DAB66DA257EE6ED00CFA95F;
+			packageReferences = (
+				0D5F37F32583F1BA00AC50C4 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */,
+			);
 			productRefGroup = 0DAB66E4257EE6ED00CFA95F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -124,9 +292,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0DC71E0B2586E47000DBA615 /* Readme.md in Resources */,
 				0DAB66F3257EE6EF00CFA95F /* LaunchScreen.storyboard in Resources */,
 				0DAB66F0257EE6EF00CFA95F /* Assets.xcassets in Resources */,
-				0DAB66EE257EE6ED00CFA95F /* Main.storyboard in Resources */,
+				0DAB66EE257EE6ED00CFA95F /* SKUList.storyboard in Resources */,
+				0D5F37F12583E4C200AC50C4 /* TransactionDetail.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,21 +307,40 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0DAB66EB257EE6ED00CFA95F /* ViewController.swift in Sources */,
+				0DC71E072586D27A00DBA615 /* Transaction.swift in Sources */,
+				0DAB6701257EF40300CFA95F /* DataRetriever.swift in Sources */,
+				0DDD8C6F25850A51009827EE /* DataPersistence.xcdatamodeld in Sources */,
+				0D5F37FA25841E2900AC50C4 /* DataDecoder.swift in Sources */,
+				0DAB66EB257EE6ED00CFA95F /* SKUListVC.swift in Sources */,
+				0D8AD7722586685200AD44EF /* TransactionsDetailVC.swift in Sources */,
+				0D95D78425858E7D0066A892 /* ConversionRateModel+CoreDataClass.swift in Sources */,
+				0D2CA51D2586A3AD00F0E7A2 /* TransactionTableViewCell.swift in Sources */,
+				0D2CA51525869BD400F0E7A2 /* AlertTools.swift in Sources */,
+				0D95D78D2585A3EF0066A892 /* SKUTableViewCell.swift in Sources */,
+				0D2CA50B258673F500F0E7A2 /* CurrencyENUM.swift in Sources */,
+				0D2CA50F2586838B00F0E7A2 /* NetworkMonitor.swift in Sources */,
+				0D2CA508258673AD00F0E7A2 /* RequestTypeENUM.swift in Sources */,
+				0D8AD76E258667ED00AD44EF /* CoreDataStack.swift in Sources */,
+				0D2CA5202586C3F500F0E7A2 /* CurrencyConversor.swift in Sources */,
 				0DAB66E7257EE6ED00CFA95F /* AppDelegate.swift in Sources */,
+				0D2CA51925869F4000F0E7A2 /* SourceTypeENUM.swift in Sources */,
 				0DAB66E9257EE6ED00CFA95F /* SceneDelegate.swift in Sources */,
+				0D95D78325858E7D0066A892 /* SKUModel+CoreDataProperties.swift in Sources */,
+				0D95D78525858E7D0066A892 /* ConversionRateModel+CoreDataProperties.swift in Sources */,
+				0D95D77925856B8D0066A892 /* DataLoader.swift in Sources */,
+				0D95D78225858E7D0066A892 /* SKUModel+CoreDataClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		0DAB66EC257EE6ED00CFA95F /* Main.storyboard */ = {
+		0DAB66EC257EE6ED00CFA95F /* SKUList.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				0DAB66ED257EE6ED00CFA95F /* Base */,
 			);
-			name = Main.storyboard;
+			name = SKUList.storyboard;
 			sourceTree = "<group>";
 		};
 		0DAB66F1257EE6EF00CFA95F /* LaunchScreen.storyboard */ = {
@@ -216,7 +405,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -271,7 +460,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -294,9 +483,9 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.JuanColilla.Goliath-National-Bank";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = GNB;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -313,9 +502,9 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.JuanColilla.Goliath-National-Bank";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = GNB;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -341,6 +530,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		0D5F37F32583F1BA00AC50C4 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/hackiftekhar/IQKeyboardManager.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.5.6;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		0D5F37F42583F1BA00AC50C4 /* IQKeyboardManagerSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0D5F37F32583F1BA00AC50C4 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */;
+			productName = IQKeyboardManagerSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		0DDD8C6D25850A51009827EE /* DataPersistence.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				0DDD8C6E25850A51009827EE /* DataPersistence.xcdatamodel */,
+			);
+			currentVersion = 0DDD8C6E25850A51009827EE /* DataPersistence.xcdatamodel */;
+			path = DataPersistence.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 0DAB66DB257EE6ED00CFA95F /* Project object */;
 }
